@@ -4,6 +4,8 @@
   "version": "42.1.0",
   "type": "module",
   "scripts": {
+    "predeploy": "npm run build"
+    "deploy": "gh-pages -d build" 
     "dev": "vite",
     "start": "vite",
     "build": "tsc && vite build",
